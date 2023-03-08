@@ -3,7 +3,7 @@ pipeline {
    stages{
        stage('git clone'){
            steps{
-                git credentialsId: '798a09d4-0bb7-4426-976e-60d199c86321', url: 'https://github.com/lucky-es-apps/SampleMavenProject1.git'git credentialsId: '627d81ae-5ed6-471b-afc8-90c69fadd554', url: 'https://github.com/devops-surya/SampleMavenProject.git'  
+                git credentialsId: '798a09d4-0bb7-4426-976e-60d199c86321', url: 'https://github.com/lucky-es-apps/SampleMavenProject1.git'  
            }        
        }
        stage('build the code'){
